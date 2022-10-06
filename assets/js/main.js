@@ -106,7 +106,7 @@ let opt = {
 	jsPDF:        { format: 'a4', orientation: 'portrait' }
 }
 
-// Function to call areaCv and Html2Pdf options 
+// Function to call areaCv and Html2Pdf options
 function generateResume(){
 	html2pdf(areaCv, opt)
 }
